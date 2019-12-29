@@ -1,0 +1,36 @@
+.sortable {
+    cursor: pointer;
+    color: #dd5;
+}
+
+.warning {
+    background-color: red;
+}
+
+table {
+  color: yellow;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 12px 0;
+  min-width: 300px;
+  background: olivedrab;
+}
+
+.header-row {
+    background: #34495E;
+    color: #fff
+}
+
+th, td {
+    text-align: left;
+    margin: 5px 10px;
+    padding: 6px;
+}
+
+.zebra:nth-child(odd) {
+    background-color: black;
+}
+
+.zebra:nth-child(even) {
+    background-color: grey;
+}
